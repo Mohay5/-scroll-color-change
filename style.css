@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+
+/* Setting fade transition and default settings */
+body {
+	color: #000;
+	background-color: #f4f4f4;
+	transition: all 1s ease;
+}
+
+/* panel styles */
+.panel {
+	/* min height incase content is higher than window height */
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Exo", sans-serif;
+	/* outline: 10px solid red; */
+	/* turn above on to see the edge of panels */
+}
+
+/* colours */
+/*.color-violet*/
+[data-paint="violet"] {
+	background-color: #7a4eab;
+	color: #ffffff;
+}
+/*.color-indigo*/
+[data-paint="indigo"] {
+	background-color: #4332cf;
+	color: #ffffff;
+}
+/*.color-blue*/
+[data-paint="blue"] {
+	background-color: #2f8fed;
+	color: #ffffff;
+}
+/*.color-green*/
+[data-paint="green"] {
+	background-color: #4dcf42;
+}
+/*.color-yellow*/
+[data-paint="yellow"] {
+	background-color: #faeb33;
+}
+/*.color-orange*/
+[data-paint="orange"] {
+	background-color: #f19031;
+}
+/*.color-red*/
+[data-paint="red"] {
+	background-color: #f2293a;
+}
+/*.color-hotpink*/
+[data-paint="hotpink"] {
+	background-color: hotpink;
+}
+
+/* styling for demo, can ignore */
+body {
+	text-align: center;
+	font-size: 120%;
+}
+h1,
+h2 {
+	font-size: 3em;
+	letter-spacing: -0.05em;
+	line-height: 1.1;
+}
+p {
+	max-width: 30em;
+	margin-bottom: 1.618em;
+}
+a {
+	color: #4332cf;
+}
